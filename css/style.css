@@ -87,18 +87,19 @@ body {
   transition: 0.3s;
 }
 .name {
-  color: white;
+  color: #121212;
   padding-top: 10px;
-  font-size: 42px;
+  font-size: 30px;
   position: relative;
   left: 4%;
   font-family: initial;
+  font-weight: 900;
 }
 .name:hover{
-  color: #00D363;
+  color: #4755bb;
 }
 .name_footer {
-  color: white;
+  color: black;
   padding-top: 10px;
   font-size: 42px;
   position: absolute;
@@ -1032,10 +1033,10 @@ h3 {
 
 /* line 176, ../../Arafath/CL/December/235. uri board/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
-  font-size: 25px;
+  color: #121212;
+  font-size: 15px;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 700;
   display: inline-block;
   padding: 35px 0px 35px 0px;
   font-family: "Roboto", sans-serif;
@@ -1078,7 +1079,7 @@ h3 {
 
 /* line 224, ../../Arafath/CL/December/235. uri board/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #00d363;
+  color: #4755bb;
 }
 
 /* line 228, ../../Arafath/CL/December/235. uri board/HTML/scss/_header.scss */
@@ -1282,12 +1283,12 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/235. uri board/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner2.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/235. uri board/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner_2.png);
+  background-image: url(../img/banner/banner2.jpg);
 }
 
 .boxed-btn3 {
@@ -1319,7 +1320,7 @@ h3 {
   background: transparent;
 }
 
-/* line 48, ../../Arafath/CL/December/235. Job board/HTML/scss/_btn.scss */
+/* line 48, ../../Arafath/CL/December/235. uri board/HTML/scss/_btn.scss */
 .boxed-btn3:focus {
   outline: none;
 }
@@ -1825,7 +1826,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 18px;
   font-weight: 500;
-  color: #ffffff;
+  color: black;
   text-transform: capitalize;
   margin-bottom: 40px;
   font-family: "Roboto", sans-serif;
@@ -1856,7 +1857,7 @@ h3 {
 
 /* line 45, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
-  color: #aab1b7;
+  color: white;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -1864,18 +1865,18 @@ h3 {
 
 /* line 51, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a {
-  color: #aab1b7;
+  color: black;
 }
 
 /* line 53, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a:hover {
-  color: #ffffff;
+  color: black;
 }
 
 /* line 59, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
   font-size: 16px;
-  color: #00d363;
+  color: black;
   margin-bottom: 23px;
   font-weight: 400;
   line-height: 28px;
@@ -1883,7 +1884,7 @@ h3 {
 
 /* line 65, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain {
-  color: #00d363;
+  color: black;
   font-weight: 400;
 }
 
@@ -1919,14 +1920,16 @@ h3 {
 
 /* line 94, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #aab1b7;
+  color: white;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
+  font-size: 22px;
 }
 
 /* line 98, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #ffffff;
+  color: black;
+  font-size: 19px;
 }
 
 /* line 104, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
@@ -1996,7 +1999,7 @@ h3 {
 /* line 155, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 15px;
-  color: #aab1b7;
+  color: #171818;
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -2010,7 +2013,7 @@ h3 {
 
 /* line 163, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #00d363;
+  color: #06045e;
 }
 
 /* line 168, ../../Arafath/CL/December/235. uri board/HTML/scss/_footer.scss */
@@ -2076,9 +2079,11 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/235. uri board/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/banner2.jpg);
 }
-
+.bradcam_bg_5 {
+  background-image: url(../img/banner/contact_1.jpg);
+}
 /* line 4, ../../Arafath/CL/December/235. uri board/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
@@ -6149,10 +6154,10 @@ ul li {
   padding: 70px 273px 40px 10px;
 }
 .footer {
-  background: #276e5b;
+  background: #66a7e3;
 }
 .header-area .main-header-area.sticky {
-  background: #0096889e;
+  background: #3171bf9e;
 }
 .hellotest {
   background-image: url("{% static 'img/new_img/zoel.jpg' %}");
@@ -6174,4 +6179,51 @@ ul li {
 }
 .header-area .header-top_area {
   background: #0096889e;
+}
+
+.contact-section {
+    background: #F5F7FA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* line 164, ../../Arafath/CL/December/235. uri board/HTML/scss/_uri_details.scss */
+.uri_details_area .apply_uri_form .input_field input, .uri_details_area .apply_uri_form .input_field textarea {
+  height: 60px;
+  border: 1px solid #E8E8E8;
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 171, ../../Arafath/CL/December/235. uri board/HTML/scss/_uri_details.scss */
+.uri_details_area .apply_uri_form .input_field input::placeholder, .uri_details_area .apply_uri_form .input_field textarea::placeholder {
+  color: #7A838B;
+  font-size: 16px;
+}
+
+/* line 175, ../../Arafath/CL/December/235. uri board/HTML/scss/_uri_details.scss */
+.uri_details_area .apply_uri_form .input_field input:focus, .uri_details_area .apply_uri_form .input_field textarea:focus {
+  outline: none;
+}
+
+/* line 179, ../../Arafath/CL/December/235. uri board/HTML/scss/_uri_details.scss */
+.uri_details_area .apply_uri_form .input_field textarea {
+  height: 188px;
+  padding: 20px;
+}
+
+/* line 184, ../../Arafath/CL/December/235. uri board/HTML/scss/_uri_details.scss */
+.uri_details_area .apply_uri_form .input_field.file_up input {
+  position: relative;
+}
+
+/* line 186, ../../Arafath/CL/December/235. uri board/HTML/scss/_uri_details.scss */
+.uri_details_area .apply_uri_form .input_field.file_up input:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: 'Upload CV';
 }
